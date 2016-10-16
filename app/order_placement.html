@@ -1,0 +1,433 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>SmartBuy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <link href='./HelveticaNeue-Light.otf' rel='stylesheet' type='text/css' />
+    <style type="text/css" media="all">
+        @font-face {
+            font-family: 'Helvetica Neue Light';
+            src: url('./HelveticaNeue-Light.otf');
+        }
+    </style>
+</head>
+<body style="background: #fafafa; color: #3a4752; margin: 0; padding: 0; font-family: Helvetica Neue Light; width: 100%;">
+<table cellspacing="0" cellpadding="0" width="100%"
+       style="background: #fafafa; color: #3a4752; font-family: Helvetica Neue Light; width: 100%">
+    <tr>
+        <td width="100%" style="width: 100%; text-align: right;" align="right">
+
+            <!-- CONTAINER -->
+
+            <table cellpadding="0" cellspacing="0" width="100%">
+                <tr>
+                    <td width="10%">&nbsp;</td>
+                    <td width="80%" height="40px">&nbsp;</td>
+                    <td width="10%">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td width="10%">&nbsp;</td>
+                    <td width="80%">
+                        <table cellpadding="0" cellspacing="0" width="100%">
+                            <tr>
+                                <td>
+                                    <table cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse; font-size: 22px;">
+                                        <tr>
+                                            <td align="left" style="letter-spacing: 2px;">
+                                                SMART2BUY
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td>
+                                    <table cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse; font-size: 13px">
+                                        <tr>
+                                            <td align="right" style="padding-top:7px;">
+                                                <a href="http://www.smart2buy.com" style="color: #3a4752; text-decoration: none;">WWW.SMART2BUY.COM</a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td width="10%">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td width="10%">&nbsp;</td>
+                    <td width="80%" height="40px">&nbsp;</td>
+                    <td width="10%">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td width="10%">&nbsp;</td>
+                    <td width="80%" style="padding-left: 40px; padding-right: 40px; background: white;">
+
+                        <!--- CONTENT -->
+                        <table cellspacing="0" cellpadding="0" width="100%" class="spacer">
+                            <tr>
+                                <td height="40px" style="font-size:40px;line-height:40px;">&#xA0;</td>
+                            </tr>
+                        </table>
+
+                        <table cellspacing="0" cellpadding="0" width="100%">
+                            <tr>
+                                <td style="font-size: 16px; text-align: left;" align="left">
+                                    Hi <span style="font-weight: bold;">{{ Jonh Smith }}</span>,
+                                </td>
+                            </tr>
+                        </table>
+
+                        <table cellspacing="0" cellpadding="0" width="100%" class="spacer">
+                            <tr>
+                                <td height="40px" style="font-size:40px;line-height:40px;">&#xA0;</td>
+                            </tr>
+                        </table>
+
+                        <table cellspacing="0" cellpadding="0" width="100%">
+                            <tr>
+                                <td style="font-size: 16px; text-align: left;" align="left">
+                                    Thanks for ordering with Smart2Buy. We are currently placing your order with the retailers. We’ll let you know as soon as it’s confirmed.
+                                </td>
+                            </tr>
+                        </table>
+
+                        <table cellspacing="0" cellpadding="0" width="100%" class="spacer">
+                            <tr>
+                                <td height="70px" style="font-size:70px;line-height:70px;">&#xA0;</td>
+                            </tr>
+                        </table>
+
+                        <table cellspacing="0" cellpadding="0" width="100%">
+                            <tr>
+                                <td style="font-size: 16px; text-align: left;" align="left">
+                                    Order #{{ 32451234 }}
+                                </td>
+                            </tr>
+                        </table>
+
+                        <!-- PRODUCT -->
+                        <!-- FOR ... IN -->
+                        <table cellpadding="0" cellspacing="0" width="100%" >
+                            <tr>
+                                <td height="25px" style="font-size:25px;line-height:25px;">&#xA0;</td>
+                            </tr>
+                            <tr>
+                                <td valign="middle" style="width: 105px; text-align: left;" align="left">{{ zdjecie }}</td>
+                                <td>
+                                    <table cellpadding="0" cellspacing="0" width="100%" style="padding-left: 20px;">
+                                        <tr>
+                                            <td style="font-size: 16px; text-align: left;" align="left">San Pellegrino® Aranciata Rossa</td>
+                                        </tr>
+                                        <tr>
+                                            <td height="5px" style="font-size:5px;line-height:5px;">&#xA0;</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="font-size: 13px; color: #7f8489; text-align: left;" align="left">Aranciata Rossa / Blood Orange Sparkling Fruit Beverages</td>
+                                        </tr>
+                                        <tr>
+                                            <td height="20px" style="font-size:20px;line-height:20px;">&#xA0;</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="font-size: 13px; color: #7f8489; text-align: left;" align="left">Qty: {{ 2 }} &#xA0;&#xA0;&#xA0;&#xA0;|&#xA0;&#xA0;&#xA0;&#xA0; {{ $12.99 }}</td>
+                                        </tr>
+
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="25px" style="font-size:25px;line-height:25px;">&#xA0;</td>
+                            </tr>
+                        </table>
+
+                        <table cellpadding="0" cellspacing="0" width="100%" >
+                            <tr>
+                                <td height="25px" style="font-size:25px;line-height:25px;">&#xA0;</td>
+                            </tr>
+                            <tr>
+                                <td valign="middle" style="width: 105px; text-align: left;" align="left">{{ zdjecie }}</td>
+                                <td >
+                                    <table cellpadding="0" cellspacing="0" width="100%" style="padding-left: 20px;">
+                                        <tr>
+                                            <td style="font-size: 16px; text-align: left;" align="left">San Pellegrino® Aranciata Rossa</td>
+                                        </tr>
+                                        <tr>
+                                            <td height="5px" style="font-size:5px;line-height:5px;">&#xA0;</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="font-size: 13px; color: #7f8489; text-align: left;" align="left">Aranciata Rossa / Blood Orange Sparkling Fruit Beverages</td>
+                                        </tr>
+                                        <tr>
+                                            <td height="20px" style="font-size:20px;line-height:20px;">&#xA0;</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="font-size: 13px; color: #7f8489; text-align: left;" align="left">Qty: {{ 2 }} &#xA0;&#xA0;&#xA0;&#xA0;|&#xA0;&#xA0;&#xA0;&#xA0; {{ $12.99 }}</td>
+                                        </tr>
+
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="25px" style="font-size:25px;line-height:25px;">&#xA0;</td>
+                            </tr>
+                        </table>
+                        <!-- END FOR -->
+                        <!-- END PRODUCT -->
+
+                        <table cellspacing="0" cellpadding="0" width="100%" class="spacer">
+                            <tr>
+                                <td height="25px" style="font-size:25px;line-height:25px;">&#xA0;</td>
+                            </tr>
+                        </table>
+
+                        <table cellspacing="0" cellpadding="0" width="100%">
+                            <tr>
+                                <td align="left" style="text-align: left; padding-top: 20px; padding-bottom: 20px; font-size: 14px;">
+                                    Subtotal
+                                </td>
+                                <td align="right" style="text-align: right; padding-top: 20px; padding-bottom: 20px; font-size: 14px;">
+                                    {{ $40.97 }}
+                                </td>
+                            </tr>
+                        </table>
+
+                        <table cellspacing="0" cellpadding="0" width="100%">
+                            <tr>
+                                <td align="left" style="text-align: left; padding-top: 20px; padding-bottom: 20px; font-size: 14px;">
+                                    Standard Delivery
+                                </td>
+                                <td align="right" style="text-align: right; padding-top: 20px; padding-bottom: 20px; font-size: 14px;">
+                                    {{ $4.99 }}
+                                </td>
+                            </tr>
+                        </table>
+
+                        <table cellspacing="0" cellpadding="0" width="100%">
+                            <tr>
+                                <td align="left" style="text-align: left; padding-top: 20px; padding-bottom: 20px; font-size: 14px;">
+                                    Taxes
+                                </td>
+                                <td align="right" style="text-align: right; padding-top: 20px; padding-bottom: 20px; font-size: 14px;">
+                                    {{ $0.00 }}
+                                </td>
+                            </tr>
+                        </table>
+
+                        <table cellspacing="0" cellpadding="0" width="100%">
+                            <tr>
+                                <th align="left" style="text-align: left; padding-top: 20px; padding-bottom: 20px; font-size: 14px;">
+                                    Total
+                                </th>
+                                <th align="right" style="text-align: right; padding-top: 20px; padding-bottom: 20px; font-size: 14px;">
+                                    {{ $45.96 }}
+                                </th>
+                            </tr>
+                        </table>
+
+                        <table cellspacing="0" cellpadding="0" width="100%" class="spacer">
+                            <tr>
+                                <td height="30px" style="font-size:30px;line-height:30px;">&#xA0;</td>
+                            </tr>
+                        </table>
+
+                        <table cellspacing="0" cellpadding="0" width="100%">
+                            <tr>
+                                <td align="left" style="text-align: left;">
+                                    <img src="{{ img }}">
+                                </td>
+                                <td align="right" valign="middle" style="text-align: right; font-size: 13px; vertical-align: middle;">
+                                    This order is provided and fulfilled by Amazon.com
+                                </td>
+                            </tr>
+                        </table>
+
+                        <table cellspacing="0" cellpadding="0" width="100%" class="spacer">
+                            <tr>
+                                <td height="55px" style="font-size:55px;line-height:55px;">&#xA0;</td>
+                            </tr>
+                        </table>
+
+                        <table cellspacing="0" cellpadding="0" width="100%">
+                            <tr>
+                                <th align="left" style="font-size: 14px; text-align: left; padding-top: 8px; padding-bottom: 8px;">
+                                    Delivery Address
+                                </th>
+                            </tr>
+                            <tr>
+                                <td style="font-size: 14px; text-align: left;" align="left">{{ John Doe, Elvis Presley Blvd, Memphis, TN 38116, United States }}</td>
+                            </tr>
+                        </table>
+
+                        <table cellspacing="0" cellpadding="0" width="100%" class="spacer">
+                            <tr>
+                                <td height="30px" style="font-size:30px;line-height:30px;">&#xA0;</td>
+                            </tr>
+                        </table>
+
+                        <table cellspacing="0" cellpadding="0" width="100%">
+                            <tr>
+                                <th align="left" style="font-size: 14px; text-align: left; padding-top: 8px; padding-bottom: 8px;">Payment Method</th>
+                            </tr>
+                            <tr>
+                                <td style="font-size: 14px; text-align: left;" align="left">
+                                    {{ VISA  .....3728 (HSBC Credit) }}
+                                </td>
+                            </tr>
+                        </table>
+
+                        <table cellspacing="0" cellpadding="0" width="100%" class="spacer">
+                            <tr>
+                                <td height="100px" style="font-size:100px;line-height:100px;">&#xA0;</td>
+                            </tr>
+                        </table>
+
+                        <table cellspacing="0" cellpadding="0" width="100%">
+                            <tr>
+                                <td style="font-size: 16px; text-align: left;" align="left">
+                                    We are currently processing your order. You can make any changes to it within 2 hours, after which it the order will be placed at the selected retailer.
+                                </td>
+                            </tr>
+                        </table>
+
+                        <table cellspacing="0" cellpadding="0" width="100%" class="spacer">
+                            <tr>
+                                <td height="33px" style="font-size:33px;line-height:33px;">&#xA0;</td>
+                            </tr>
+                        </table>
+
+                        <a href="http://www.example.com"
+                           style="color: #ffffff; font-size: 16px;text-decoration: none !important">
+                            <table cellspacing="0" cellpadding="0" width="100%" class="button">
+                                <tr>
+                                    <td align="center" width="100%"
+                                        style="padding-top: 12px; padding-bottom: 12px; background-color: #80aed6; text-align: center; width: 100%;">
+
+                                        <a href="http://www.example.com"
+                                           style="color: #ffffff; font-size: 16px;text-decoration: none !important">
+                                            Edit Order
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </a>
+
+                        <table cellspacing="0" cellpadding="0" width="100%" class="spacer">
+                            <tr>
+                                <td height="80px" style="font-size:80px;line-height:80px;">&#xA0;</td>
+                            </tr>
+                        </table>
+
+                        <table cellspacing="0" cellpadding="0" width="100%">
+                            <tr>
+                                <td align="left" style="text-align: left; padding-top: 20px; padding-bottom: 20px; font-size: 14px;">
+                                    View Order Details
+                                </td>
+                                <td align="right" style="text-align: right;">&gt;</td>
+                            </tr>
+                            <tr>
+                                <td align="left" style="text-align: left; padding-top: 20px; padding-bottom: 20px; font-size: 14px;">
+                                    Returns & Cancellations
+                                </td>
+                                <td align="right" style="text-align: right;">&gt;</td>
+                            </tr>
+                        </table>
+
+                        <table cellspacing="0" cellpadding="0" width="100%" class="spacer">
+                            <tr>
+                                <td height="60px" style="font-size:60px;line-height:60px;">&#xA0;</td>
+                            </tr>
+                        </table>
+
+                        <!--- END CONTENT -->
+
+                    </td>
+                    <td width="10%">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td width="10%">&nbsp;</td>
+                    <td width="80%">
+                        <table cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse; font-size: 13px; background: #7f8489; color: white; margin: 0; padding: 0;">
+                            <tr>
+                                <td style="padding-top: 35px; padding-right: 40px; padding-bottom: 53px; padding-left: 40px;">
+                                    <table cellpadding="0" cellspacing="0" width="100%">
+                                        <tr>
+                                            <td style="font-size: 20px; color: white; letter-spacing: 3px; text-align: left" align="left">
+                                                SMART2BUY
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td height="36px" style="height: 36px; line-height: 36px;">&nbsp;</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <table cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse; font-size: 13px; background: #7f8489; color: white; margin: 0; padding: 0;">
+                                                    <tr>
+                                                        <td>
+                                                            <table cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse; font-size: 13px; background: #7f8489; color: white; margin: 0; padding: 0;">
+                                                                <tr style="border-top: solid 1px #c0c0c0; font-size: 14px;">
+                                                                    <td style="padding-top: 14px; padding-bottom: 14px; font-size: 14px; text-align: left;" align="left">
+                                                                        My Account
+                                                                    </td>
+                                                                    <td align="right" style="font-size: 16px;">
+                                                                        &gt;
+                                                                    </td>
+                                                                </tr>
+                                                                <tr style="border-top: solid 1px #c0c0c0; font-size: 14px;">
+                                                                    <td style="padding-top: 14px; padding-bottom: 14px; font-size: 14px; text-align: left;" align="left">
+                                                                        About SmartBuy
+                                                                    </td>
+                                                                    <td align="right" style="font-size: 16px;">
+                                                                        &gt;
+                                                                    </td>
+                                                                </tr>
+                                                                <tr style="border-top: solid 1px #c0c0c0; font-size: 14px;">
+                                                                    <td style="padding-top: 14px; padding-bottom: 14px; font-size: 14px; text-align: left;" align="left">
+                                                                        Terms & Conditions
+                                                                    </td>
+                                                                    <td align="right" style="font-size: 16px;">
+                                                                        &gt;
+                                                                    </td>
+                                                                </tr>
+                                                                <tr style="border-top: solid 1px #c0c0c0; border-bottom: solid 1px #c0c0c0; font-size: 14px;">
+                                                                    <td style="padding-top: 14px; padding-bottom: 14px; font-size: 14px; text-align: left;" align="left">
+                                                                        Privacy Policy
+                                                                    </td>
+                                                                    <td align="right" style="font-size: 16px;">
+                                                                        &gt;
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td height="36px">&nbsp;</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="color: white; font-size: 12px; text-align: left;" align="left">
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td width="10%">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td width="10%">&nbsp;</td>
+                    <td width="80%" height="90px">&nbsp;</td>
+                    <td width="10%">&nbsp;</td>
+                </tr>
+            </table>
+
+            <!-- END CONTAINER -->
+        </td>
+    </tr>
+</table>
+</body>
+</html>
